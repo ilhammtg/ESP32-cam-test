@@ -48,8 +48,8 @@ const unsigned long motionCooldown = 10000; // 10 detik cooldown antar deteksi
 BlynkTimer timer;
 
 // Konfigurasi server PHP
-const char* phpServerURL = "https://esp32.labil.co-id.id/esp-server/index.php";
-const char* imageViewURL = "https://esp32.labil.co-id.id/esp-server/uploads/image1.jpg";
+const char* phpServerURL = "https://data.smkn1gandapura.sch.id/upload.php";
+const char* imageViewURL = "https://data.smkn1gandapura.sch.id/uploads/image.jpg";
 
 // Variabel untuk tracking upload
 unsigned long lastUploadTime = 0;
